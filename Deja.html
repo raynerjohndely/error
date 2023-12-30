@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Deja Brewed</title>
+    <link rel="icon" href="logo.jpeg" type="image/x-icon">
+</head>
+
+
+<body>
+
+
+
+    <header>
+        <div class="logo">
+            <Marquee>
+                <a href="#">Deja<span>Brewed</span></a>
+            </Marquee>
+        </div>
+
+        <nav>
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Deja Brewed</h2>
+        <p>Would you like to start the day with us?</p>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-header">
+            <h2>About Us</h2>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="about us cover.jpg" alt="">
+            </div>
+
+            <div class="about-content">
+                <h3>What makes our product special?</h3>
+                <p>Deja Brewed offers a variety of iced coffee, mini donuts, and cookies to satisfy your cravings. Their
+                    expertly crafted iced coffee drinks are made with high-quality beans, while their mini donuts come
+                    in a variety of flavors and toppings. Their freshly baked cookies are also a must-try. The shop is
+                    committed to providing exceptional customer service and ensuring a memorable experience for every
+                    visitor.</p>
+            </div>
+        </div>
+
+
+        <div class="menu" id="menu">
+            <div class="menu-header">
+                <h3>Menu</h3>
+                <h4>Deja Brewed Menu</h4>
+            </div>
+            <div class="menu-content">
+                <div class="Iced-Coffee">
+                    <div class="Iced-Coffee-image">
+                        <a href="#item-1" href="item-2" href="item-3">
+                            <img src="content1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="Iced-Coffee-body">
+                        <h2>Iced Coffee</h2>
+                        <label>Just brewed happiness in a cup!</label>
+                    </div>
+                </div>
+                <div class="Mini-Donuts">
+                    <div class="Mini-Donuts-image">
+
+                       <a href="#item-4" href="item-5"  href="item-6" href="item-7">
+                            <img src="content2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="Mini-Donuts-body">
+                        <h2>Mini Donuts</h2>
+                        <label>Donut let anyone steal your joy!</label>
+                    </div>
+                </div>
+                <div class="Cookies-Crinkles">
+                    <div class="Cookies-Crinkles-image">
+                        <a href="#item-8" href="item-9" href="item-10">
+                            <img src="content4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="Cookies-Crinkles-body">
+                        <h2>Cookies Crinkles</h2>
+                        <label>Cookies are made of love!</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop" id="shop">
+            <div class="shop-header">
+                <h3>Shop</h3>
+                <h4>Deja Brewed Drinks</h4>
+            </div>
+            <div class="shop-box">
+                <div class="item-1" id="item-1">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img1.jpg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label class="cash">69pesos</label>
+                            <h3>Iced Mocha Latte</h3>
+                            <label>Just brewed happiness in a cup!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('img1.jpg', 'Iced Mocha Latte', '69pesos', 'Just brewed happiness in a cup!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-2" id="item-2">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img2.jpg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">69pesos</label>
+                            <h3>Iced Macha Latte</h3>
+                            <label>Just brewed happiness in a cup!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('img2.jpg', 'Iced Macha Latte', '69pesos', 'Just brewed happiness in a cup!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-3" id="itwm-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img4.jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label class="cash">69pesos</label>
+                            <h3>Iced Milky Strawberry</h3>
+                            <label>Just brewed happiness in a cup!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('img4.jpg', 'Iced Milky Strawberry', '69pesos', 'Just brewed happiness in a cup!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-4" id="item-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="mini (3).jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label class="cash">49pesos</label>
+                            <h3>White Chocolate Oreo &
+                                Chocolate Rice Crisps
+                            </h3>
+                            <label>Donut let anyone steal your joy!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('mini (3).jpeg', 'White Chocolate Oreo & Chocolate Rice Crisps', '49pesos', 'Donut let anyone steal your joy!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-5" id="item-5">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="mini (2).jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">49pesos</label>
+                            <h3>Strewberry Oreo &
+                                Chocolate Almond
+                            </h3>
+                            <label>Donut let anyone steal your joy!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('mini (2).jpeg', 'Strewberry Oreo & Chocolate Almond', '49pesos', 'Donut let anyone steal your joy!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-6" id="item-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="mini (1).jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">49pesos</label>
+                            <h3>Strewberry Sprinkle
+                                & Chocolate Rice Crips
+                            </h3>
+                            <label>Donut let anyone steal your joy!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('mini (1).jpeg', 'Strewberry Sprinkle & Chocolate Rice Crips', '49pesos', 'Donut let anyone steal your joy!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-7" id="item-7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Cookies4.jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">50pesos</label>
+                            <h3>Red Velvet Crinkles w/ Creamcheese Filling</h3>
+                            <label>Cookies are made of love!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('Cookies4.jpeg', 'Red Velvet Crinkles w/ Creamcheese Filling', '50pesos', 'Cookies are made of love!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-8" id="item-8">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Cookies2.jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">50pesos</label>
+                            <h3>Oatmeal Chocolate Chip Cookies</h3>
+                            <label>Cookies are made of love!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('Cookies2.jpeg', 'Oatmeal Chocolate Chip Cookies', '59pesos', 'Cookies are made of love!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-9" id="item-9">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Cookies1.jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">50pesos</label>
+                            <h3>Matcha Cookies</h3>
+                            <label>Cookies are made of love!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('Cookies1.jpeg', 'Matcha Cookies', '50pesos', 'Cookies are made of love!')">Quick
+                                View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-10" id="item-10">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Cookies3.jpeg">
+                        </div>
+                        <div class="card-body">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                            <label class="cash">49pesos</label>
+                            <h3>Cheese Crinkles</h3>
+                            <label>Cookies are made of love!</label>
+                            <button class="quick-view-btn"
+                                onclick="openQuickView('Cookies3.jpeg', 'Cheese Crinkles', '49pesos', 'Cookies are made of love!')">Quick
+                                View</button>
+
+                            <div id="quick-view-popup" class="quick-view-popup">
+                                <span class="close-btn" onclick="closeQuickView()">&times;</span>
+                                <div class="quick-view-content">
+                                    <img id="quick-view-image" src="" alt="">
+                                    <h3 id="quick-view-title"></h3>
+                                    <label id="quick-view-price"></label>
+                                    <p id="quick-view-description"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            function openQuickView(image, title, price, description) {
+                                document.getElementById("quick-view-image").src = image;
+                                document.getElementById("quick-view-title").innerText = title;
+                                document.getElementById("quick-view-price").innerText = price;
+                                document.getElementById("quick-view-description").innerText = description;
+                                document.getElementById("quick-view-popup").style.display = "block";
+                            }
+
+                            function closeQuickView() {
+                                document.getElementById("quick-view-popup").style.display = "none";
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .form-content {
+                    margin-bottom: 20px;
+                }
+            </style>
+            <script>
+                function sendForm() {
+                    alert("Thank you! Your concerns will be addressed.");
+                }
+            </script>
+            </head>
+
+            <body>
+                <div class="contact" id="contact">
+                    <div class="contact-box">
+                        <div class="contact-image">
+                            <img src="Front-page.jpeg">
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-body">
+                            <form onsubmit="sendForm(); return false;">
+                                <h2>Contact Us</h2>
+                                <div class="form-content">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label>Username</label>
+                                </div>
+                                <div class="form-content">
+                                    <input type="email" required>
+                                    <span></span>
+                                    <label>Email</label>
+                                </div>
+                                <div class="form-content">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label>Your Message</label>
+                                </div>
+                                <button type="submit">Send</button>
+                                <div class="video-container">
+                                    <iframe width="560" height="315" src="Shop vid/1229.mp4" frameborder="0"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location" id="location">
+                    <div class="contact-body">
+                        <form>
+                            <h2>Locate Us</h2>
+                        </form>
+                        <div class="map-wrapper">
+                            <iframe class="google-map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.801399149266!2d124.77171247475226!3d6.419558893571396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f81fb7fa7c5965%3A0xf8d37ad79c911855!2sDeja%20Brewed%20Cafe!5e0!3m2!1sen!2sph!4v1701403474796!5m2!1sen!2sph"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <div class="footer-box">
+                            <div class="social-media">
+                                <a href="https://www.facebook.com/profile.php?id=61550588904376" target="_blank"><i
+                                        class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/dejabrewed/?fbclid=IwAR2hxe1ZhmI25rkwbwztEHAi_6gfz8Q1pBWcEaovsMKKvisx8-hSKcB1_9k"
+                                    target="_blank"><i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@dejabrewed2023?fbclid=IwAR1DwBD15ga2W_DG3Es4jR1oOX2VipF-AH92UwXpN8ZoXs7nuLBgTUmt5C4"
+                                    target="_blank"><i class="fab fa-tiktok"></i>
+                                </a>
+                                <div>
+                                </div>
+                                <div class="brand">
+                                    <label>Deja <span>Brewed</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </body>
+
+</html>
